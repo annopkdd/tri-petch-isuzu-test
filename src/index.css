@@ -15,3 +15,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.slick-dots {
+  bottom: -51px !important;
+}
+
+.slick-dots li {
+  position: relative !important;
+  display: inline-block !important;
+  margin: 0px 0px 0px 0px !important;
+  cursor: pointer !important;
+}
+
+.slick-active > #pagingDot {
+  background-color: #5c3caf;
+}
