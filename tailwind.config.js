@@ -15,8 +15,13 @@ module.exports = {
       textsecondary: "#E7E7E7",
       textthird: "#C2C2C2",
       purple: "#603EBE",
+      white: "#FFFFFF",
     },
-    extend: {},
+    extend: {
+      flex: {
+        1.5: "1.5 1.5 0%",
+      },
+    },
   },
   plugins: [],
 };
