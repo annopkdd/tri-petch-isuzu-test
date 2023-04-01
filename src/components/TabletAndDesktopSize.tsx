@@ -7,7 +7,7 @@ import {
   PlayerArticle3,
 } from "./article";
 
-const TableAndDesktopSize = () => {
+const TabletAndDesktopSize = () => {
   return (
     <div className="flex flex-col">
       {/* Football Line 1 */}
@@ -87,4 +87,4 @@ const TableAndDesktopSize = () => {
   );
 };
 
-export default TableAndDesktopSize;
+export default TabletAndDesktopSize;
