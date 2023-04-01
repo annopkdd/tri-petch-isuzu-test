@@ -17,7 +17,8 @@ body {
 }
 
 .slick-dots {
-  bottom: -51px !important;
+  bottom: -58px !important;
+  right: -5px;
 }
 
 .slick-dots li {

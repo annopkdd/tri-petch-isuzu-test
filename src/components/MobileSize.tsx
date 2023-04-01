@@ -53,11 +53,11 @@ const MobileSize = () => {
       </div>
 
       {/* Basketball Player */}
-      <div className="bg-white flex flex-col ">
-        <span className="text-[50px] leading-[59px] text-textsecondary pl-[19px] mt-[19px]">
+      <div className="h-[346px] bg-white flex flex-col">
+        <span className="text-[50px] leading-[59px] text-textsecondary pl-[17px] mt-[19px]">
           PLAYERS
         </span>
-        <div className="relative flex flex-row justify-center mt-[11px]">
+        <div className="relative flex flex-row mt-[23px] ml-[3px]">
           <img
             src="/images/basketballer_mobile.png"
             className="w-[302px] min-w-[302px]"

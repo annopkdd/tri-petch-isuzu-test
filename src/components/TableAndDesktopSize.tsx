@@ -24,7 +24,7 @@ const TableAndDesktopSize = () => {
             className="block xl:hidden absolute w-[334px] min-w-[334px] top-[102px] left-[0]"
           />
         </div>
-        <div className="flex flex-col md:flex-[1.5] xl:flex-[1] md:pt-[81px] xl:pt-6 md:pb-[38px] xl:pb-[56px]">
+        <div className="flex flex-col md:flex-[1.66] xl:flex-[1] md:pt-[81px] xl:pt-6 md:pb-[38px] xl:pb-[56px]">
           <span className="text-[90px] leading-[105px] text-textsecondary">
             ATHLETS
           </span>
@@ -35,13 +35,13 @@ const TableAndDesktopSize = () => {
       {/* Football Line 2 */}
       <div className="flex flex-row bg-[#F5F4F9] md:pt-[30px] xl:pt-[53px] md:pb-[30px] xl:pb-[51px]">
         <div className="flex-[1]" />
-        <AthletsArticle2 className="md:flex-[1.5] xl:flex-[1]" />
+        <AthletsArticle2 className="md:flex-[1.66] xl:flex-[1]" />
       </div>
 
       {/* Football Line 3 */}
       <div className="flex flex-row bg-[#5E3DB3] md:pt-[30px] xl:pt-[85px] md:pb-[30px] xl:pb-[98px]">
         <div className="flex-[1] " />
-        <AthletsArticle3 className="md:flex-[1.5] xl:flex-[1]" />
+        <AthletsArticle3 className="md:flex-[1.66] xl:flex-[1]" />
       </div>
 
       {/* Basketball Line 1 */}
