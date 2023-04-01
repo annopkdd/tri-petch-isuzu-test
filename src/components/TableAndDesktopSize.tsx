@@ -28,7 +28,7 @@ const TableAndDesktopSize = () => {
           <span className="text-[90px] leading-[105px] text-textsecondary">
             ATHLETS
           </span>
-          <AthletsArticle1 />
+          <AthletsArticle1 className="md:mt-[34px] xl:mt-[59px]" />
         </div>
       </div>
 
@@ -51,14 +51,14 @@ const TableAndDesktopSize = () => {
             <span className="block text-[90px] leading-[105px] text-textsecondary">
               PLAYERS
             </span>
-            <PlayerArticle1 />
+            <PlayerArticle1 className="md:mt-[34px] xl:mt-[68px]" />
           </div>
         </div>
         <div className="relative flex-[1] flex flex-row justify-center">
           <img
             src="/images/basketballer_xl.png"
             height={"auto"}
-            className="hidden xl:block absolute w-[991px] min-w-[991px] top-[0] left-[-203px]"
+            className="hidden xl:block absolute w-[991px] min-w-[991px] top-[0] left-[-210px]"
           />
           <img
             src="/images/basketballer_md.png"
@@ -78,7 +78,7 @@ const TableAndDesktopSize = () => {
 
       {/* Basketball Line 3 */}
       <div className="bg-[#090C35] flex flex-row">
-        <div className="flex-[1] flex flex-row justify-end pt-6 md:pt-[60px] xl:pt-[87px] md:pb-[28px] xl:pb-[95px]">
+        <div className="flex-[1] flex flex-row justify-end pt-6 md:pt-[60px] xl:pt-[87px] md:pb-[28px] xl:pb-[70px]">
           <PlayerArticle3 className="w-[717px] pl-[31px]" />
         </div>
         <div className="relative flex-[1] flex flex-row justify-center" />
